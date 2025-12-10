@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarkand Eco-Tourism | Discover Green Uzbekistan</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="Eko.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo-svg-container">
+                <svg 
+                version="1.1" 
+                xmlns="http://www.w3.org/2000/svg" 
+                xmlns:xlink="http://www.w3.org/1999/xlink" 
+                x="0px" 
+                y="0px"
+                viewBox="0 0 160 50" 
+                style="enable-background:new 0 0 160 50;" 
+                xml:space="preserve"
+                width="260" 
+                height="50"
+                aria-label="Eko Samarqand Logosi"
+                >
+                <defs>
+                    <style>
+                        /* Logodagi ranglar ham yangi palitraga moslashtirildi */
+                        .cls-1{fill:#1A73E8;} /* Primary Blue */
+                        .cls-2{fill:#34A853;} /* Accent Green */
+                        .cls-3{fill:#4285F4;} /* Secondary Blue */ 
+                        .text-main{font-family: 'Inter', sans-serif; font-weight: 800;}
+                    </style>
+                </defs>
+                <path class="cls-1" d="M30,50 L45,15 L60,50 Z"/>
+                <path class="cls-1" d="M50,50 L65,25 L80,50 Z"/>
+                <path class="cls-3" d="M10,50 L30,25 L50,50 Z"/>
+                <circle class="cls-2" cx="35" cy="18" r="8"/>
+                <text class="text-main" transform="matrix(1 0 0 1 70 25)" font-size="20" fill="#3C4043">EKO</text>
+                <text class="text-main" transform="matrix(1 0 0 1 70 45)" font-size="20" fill="#1A73E8">SAMARQAND</text>
+            </svg>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#about" data-uz="Biz Haqimizda" data-ru="О Нас" data-en="About Us">Biz Haqimizda</a></li>
+            <li><a href="#services" data-ru="Услуги" data-en="Services" data-uz="Xizmatlar">Xizmatlar</a></li> 
+            <li><a href="#places" data-uz="Joylar" data-ru="Места" data-en="Places">Joylar</a></li>
+        </ul>
+        
+        <div class="lang-switcher-dropdown">
+            <button class="lang-dropdown-btn" id="current-lang-display">
+                <i class="fas fa-globe"></i> 
+            </button>
+            <div class="lang-dropdown-content" id="lang-menu">
+                <a href="#" data-lang="uz" class="lang-option active">Uzbek</a>
+                <a href="#" data-lang="ru" class="lang-option">Русский</a>
+                <a href="#" data-lang="en" class="lang-option">English</a>
+            </div>
+        </div>
+        </div>
+</nav>
+
+<header class="hero-banner" 
+    data-uz-h1="Samarqand: Ekoturizmning Yangi Manzili" 
+    data-ru-h1="Самарканд: Новое Экотуристическое Направление" 
+    data-en-h1="Samarkand: The New Eco-Tourism Destination">
+    <div class="hero-content">
+        <h1 class="animate-on-load-h1">Samarqand: Ekoturizmning Yangi Manzili</h1>
+        <p class="subtitle" data-uz="Discover the untouched nature and cultural gems of the region." data-ru="Откройте для себя нетронутую природу и культурные жемчужины региона." data-en="Discover the untouched nature and cultural gems of the region.">Discover the untouched nature and cultural gems of the region.</p>
+        <a href="#places" class="btn primary-btn animate-on-load" data-uz="Sayohatni Boshlash" data-ru="Начать Путешествие" data-en="Start Journey">Sayohatni Boshlash</a>
+    </div>
+</header>
+
+<main>
+    <section id="about" class="section intro-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll" data-uz="Nima uchun bizni tanlash kerak?" data-ru="Почему выбрать нас?" data-en="Why Choose Us?">Nima uchun bizni tanlash kerak?</h2>
+            <div class="feature-grid">
+                <div class="feature-card animate-on-scroll" data-delay="0.1s">
+                    <h3 data-uz-h3="Yashil Sayohat" data-ru-h3="Зеленый Туризм" data-en-h3="Green Tourism"><span class="icon fas fa-leaf"></span> Yashil Sayohat</h3>
+                    <p data-uz-p="Tabiatni muhofaza qilishga yo'naltirilgan sarguzashtlar." data-ru-p="Приключения, направленные на сохранение природы." data-en-p="Adventures focused on nature conservation.">Tabiatni muhofaza qilishga yo'naltirilgan sarguzashtlar.</p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="0.3s">
+                    <h3 data-uz-h3="Betakror Manzaralar" data-ru-h3="Уникальные Пейзажи" data-en-h3="Unique Landscapes"><span class="icon fas fa-mountain"></span> Betakror Manzaralar</h3>
+                    <p data-uz-p="O'zbekiston tog'larining eng go'zal va sokin joylari." data-ru-p="Самые красивые и спокойные места гор Узбекистана." data-en-p="The most beautiful and peaceful places in the mountains of Uzbekistan.">O'zbekiston tog'larining eng go'zal va sokin joylari.</p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="0.5s">
+                    <h3 data-uz-h3="Qulaylik va Xavfsizlik" data-ru-h3="Комфорт и Безопасность" data-en-h3="Comfort and Safety"><span class="icon fas fa-hiking"></span> Qulaylik va Xavfsizlik</h3>
+                    <p data-uz-p="Yuqori darajadagi xizmat ko'rsatish va to'liq xavfsizlik kafolati." data-ru-p="Высокий уровень обслуживания и полная гарантия безопасности." data-en-p="High level of service and full safety guarantee.">Yuqori darajadagi xizmat ko'rsatish va to'liq xavfsizlik kafolati.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="section services-section bg-light">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll" data-uz="Bizning Xizmatlarimiz" data-ru="Наши Услуги" data-en="Our Services">Bizning Xizmatlarimiz</h2>
+            <div class="service-grid">
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-campground service-icon spin-on-hover"></i>
+                    <h3 data-uz-h3="Ekspress Trekking" data-ru-h3="Экспресс Треккинг" data-en-h3="Express Trekking">Ekspress Trekking</h3>
+                    <p data-uz-p="Samarqand atrofidagi eng mashhur tog' yo'llari bo'ylab tezkor va qiziqarli piyoda sayohatlar." data-ru-p="Быстрые и увлекательные пешие походы по самым популярным горным маршрутам вокруг Самарканда." data-en-p="Fast and exciting treks along the most popular mountain routes around Samarkand.">Samarqand atrofidagi eng mashhur tog' yo'llari bo'ylab tezkor va qiziqarli piyoda sayohatlar.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-horse service-icon spin-on-hover"></i>
+                    <h3 data-uz-h3="Otda Sayohat" data-ru-h3="Конные Прогулки" data-en-h3="Horseback Riding">Otda Sayohat</h3>
+                    <p data-uz-p="Tayloq va Urgut tog'larida otlarda sayohat qilish. Mahalliy hayot tarziga sho'ng'ish." data-ru-p="Поездки на лошадях в горах Тайлака и Ургута. Погружение в местный образ жизни." data-en-p="Horse riding in the mountains of Tayloq and Urgut. Immersion into the local way of life.">Tayloq va Urgut tog'larida otlarda sayohat qilish. Mahalliy hayot tarziga sho'ng'ish.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <i class="fas fa-camera service-icon spin-on-hover"></i>
+                    <h3 data-uz-h3="Foto-Ekskursiyalar" data-ru-h3="Фото-Экскурсии" data-en-h3="Photo Tours">Foto-Ekskursiyalar</h3>
+                    <p data-uz-p="Eng go'zal manzaralarni tasvirga olish uchun maxsus marshrutlar." data-ru-p="Специальные маршруты для фотосъемки самых живописных пейзажей." data-en-p="Special routes for capturing the most picturesque landscapes.">Eng go'zal manzaralarni tasvirga olish uchun maxsus marshrutlar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="places" class="section places-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll" data-uz="Kashf Qilinadigan Eko-Joylar" data-ru="Эко-Места для Открытия" data-en="Eco-Destinations to Discover">Kashf Qilinadigan Eko-Joylar</h2>
+            
+            <div class="controls-container filter-only animate-on-scroll">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all" onclick="filterPlaces('all')" data-uz="Barchasi" data-ru="Все" data-en="All"><i class="fas fa-globe"></i> Barchasi</button>
+                    <button class="filter-btn" data-filter="tog" onclick="filterPlaces('tog')" data-uz="Tog'lar" data-ru="Горы" data-en="Mountains"><i class="fas fa-mountain"></i> Tog'lar</button>
+                    <button class="filter-btn" data-filter="daryo" onclick="filterPlaces('daryo')" data-uz="Daryo/Tabiat" data-ru="Река/Природа" data-en="River/Nature"><i class="fas fa-water"></i> Daryo/Tabiat</button>
+                    <button class="filter-btn" data-filter="madaniy" onclick="filterPlaces('madaniy')" data-uz="Madaniy/Ziyorat" data-ru="Культура/Зиярат" data-en="Cultural/Pilgrimage"><i class="fas fa-monument"></i> Madaniy/Ziyorat</button>
+                    <button class="filter-btn" data-filter="qishloq" onclick="filterPlaces('qishloq')" data-uz="Agroturizm" data-ru="Агротуризм" data-en="Agrotourism"><i class="fas fa-tractor"></i> Agroturizm</button>
+                </div>
+            </div>
+            
+            <div class="place-list">
+                
+                <article 
+                class="place-card animate-on-scroll"
+                data-modal-title-uz="Omonquton (Amonkuton) Qo'riqxonasi"
+                data-modal-location-uz="Samarqanddan 40 km janubi-g'arbda, Nurobod tumani yo'nalishida."
+                data-modal-activities-uz="Hiking, speleologiya (g'orlarni o'rganish), yovvoyi tabiatni kuzatish."
+                data-modal-description-uz="Mashhur g'orlari, tosh qoyalari va sokin tog' havosiga ega. Qisqa muddatli sayohatlar va oilaviy pikniklar uchun ideal. Bu yerda qadimiy qoyatosh rasmlarini ham uchratish mumkin."
+                
+                data-modal-title-ru="Урочище Омонкутон (Амонкутон)"
+                data-modal-location-ru="40 км к юго-западу от Самарканда, в сторону Нуробадского района."
+                data-modal-activities-ru="Пешие походы, спелеология (изучение пещер), наблюдение за дикой природой."
+                data-modal-description-ru="Известен своими пещерами, скалистыми образованиями и тихим горным воздухом. Идеально подходит для коротких поездок и семейных пикников. Здесь также можно найти древние наскальные рисунки."
+
+                data-modal-title-en="Amonkuton Nature Reserve"
+                data-modal-location-en="40 km southwest of Samarkand, towards Nurobod district."
+                data-modal-activities-en="Hiking, speleology (cave exploration), wildlife observation."
+                data-modal-description-en="Features famous caves, rock formations, and peaceful mountain air. Ideal for short trips and family picnics. Ancient rock carvings can also be found here."
+
+                data-lat="39.5539" 
+                data-lng="66.5292" 
+                data-tags="tog madaniy" 
+                onclick="openModal(this)"
+                >
+                <div class="card-image-wrapper">
+                    <img src="https://anhor.uz/wp-content/uploads/2024/08/screenshot-2024-08-09-083710.jpg" alt="Omonquton qo'riqxonasidagi tog' manzarasi" class="place-img">
+                </div>
+                <h3 class="place-title" data-uz-title="Omonquton (Amonkuton)" data-ru-title="Омонкутон (Амонкутон)" data-en-title="Amonkuton">Omonquton (Amonkuton)</h3>
+                <p class="card-description-placeholder"></p> </article>
+            
+            <article 
+            class="place-card animate-on-scroll"
+            data-modal-title-uz="Zarafshon Milliy Tabiat Bog'i"
+            data-modal-location-uz="Zarafshon daryosi bo'ylab, Samarqand va Navoiy viloyatlari chegarasida."
+            data-modal-activities-uz="Birdwatching (qushlarni kuzatish), Buxoro bug'usi populyatsiyasini ko'rish, Ekologik izlanishlar."
+            data-modal-description-uz="Daryo bo'yi o'rmonlarini va noyob yovvoyi tabiatni, xususan, yo'q bo'lib ketish xavfi ostidagi Buxoro bug'usini himoya qiluvchi muhim qo'riqxona."
+
+            data-modal-title-ru="Национальный Природный Парк Зарафшан"
+            data-modal-location-ru="Вдоль реки Зарафшан, на границе Самаркандской и Навоийской областей."
+            data-modal-activities-ru="Наблюдение за птицами (Birdwatching), наблюдение за популяцией Бухарского оленя, Экологические исследования."
+            data-modal-description-ru="Важный заповедник, защищающий тугайные леса и уникальную дикую природу, в частности, находящегося под угрозой исчезновения Бухарского оленя."
+
+            data-modal-title-en="Zarafshan National Nature Park"
+            data-modal-location-en="Along the Zarafshan River, on the border of Samarkand and Navoiy regions."
+            data-modal-activities-en="Birdwatching, viewing the Bukhara deer population, Ecological research."
+            data-modal-description-en="An important reserve protecting riparian forests and unique wildlife, especially the endangered Bukhara deer."
+
+            data-lat="39.8139" 
+            data-lng="67.0673" 
+            data-tags="daryo tabiat" 
+            onclick="openModal(this)"
+            >
+            <div class="card-image-wrapper">
+                <img src="https://yuz.uz/imageproxy/1200x/https://yuz.uz/file/news/7b8db2355c58afe0bbfe5e5e96ad4215.jpg" alt="Zarafshon Milliy Tabiat Bog'ida Buxoro bug'usi" class="place-img">
+            </div>
+            <h3 class="place-title" data-uz-title="Zarafshon Milliy Tabiat Bog'i" data-ru-title="Нац. Парк Зарафшан" data-en-title="Zarafshan National Park">Zarafshon Milliy Tabiat Bog'i</h3>
+            <p class="card-description-placeholder"></p>
+        </article>
+        
+        <article 
+        class="place-card animate-on-scroll"
+        data-modal-title-uz="Urgut Tog'lari va Chorchinar"
+        data-modal-location-uz="Samarqandning janubi-sharqiy tog'li hududlari, Urgut tumani markazi."
+        data-modal-activities-uz="Chashma bulog'ini ziyorat qilish, tarixiy bozor, an'anaviy oilaviy yashash tarzini ko'rish."
+        data-modal-description-uz="Ajoyib tog' manzaralari va mahalliy an'analarga chuqur sho'ng'ishni taklif etadi. Ayniqsa, Chorchinardagi ming yillik chinorlar va shahar bozoridagi rang-baranglik e'tiborga loyiqdir."
+
+        data-modal-title-ru="Горы Ургута и Чорчинор"
+        data-modal-location-ru="Юго-восточные горные районы Самарканда, центр Ургутского района."
+        data-modal-activities-ru="Посещение родника, исторический базар, знакомство с традиционным бытом."
+        data-modal-description-ru="Предлагает великолепные горные пейзажи и глубокое погружение в местные традиции. Особенно примечательны тысячелетние чинары в Чорчинаре и колорит городского базара."
+
+        data-modal-title-en="Urgut Mountains and Chorchinor"
+        data-modal-location-en="Southeastern mountainous areas of Samarkand, center of Urgut district."
+        data-modal-activities-en="Visiting the spring, historical bazaar, seeing traditional family life."
+        data-modal-description-en="Offers stunning mountain scenery and a deep dive into local traditions. Particularly noteworthy are the thousand-year-old plane trees at Chorchinor and the colorful city bazaar."
+
+        data-lat="39.5312" 
+        data-lng="67.2848" 
+        data-tags="tog madaniy" 
+        onclick="openModal(this)"
+        >
+        <div class="card-image-wrapper">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/d6/c9/ea/caption.jpg?w=900&h=500&s=1" alt="Urgutdagi Chorchinor bog'i" class="place-img">
+        </div>
+        <h3 class="place-title" data-uz-title="Urgut (Urgut Mountains)" data-ru-title="Ургут (Ургут Тоглари)" data-en-title="Urgut Mountains">Urgut (Urgut Mountains)</h3>
+        <p class="card-description-placeholder"></p>
+    </article>
+    
+    <article 
+    class="place-card animate-on-scroll"
+    data-modal-title-uz="Hazrati Dovud G'ori (Ziyoratgoh)"
+    data-modal-location-uz="Nurobod tumani, Katta Omonquton yo'lida, tog'li hudud."
+    data-modal-activities-uz="Ziyorat qilish, tog'ga chiqish (yuzlab zinapoyalar), go'zal tabiatdan bahra olish."
+    data-modal-description-uz="Go'zal tog'li hududda joylashgan muhim ziyoratgoh bo'lib, uning ichida Dovud (a.s.)ning izi borligi rivoyat qilinadi. Ziyoratgohga chiqish uchun taxminan 1300 ga yaqin zinapoyani bosib o'tish talab etiladi."
+
+    data-modal-title-ru="Пещера Хазрати Давуд (Святыня)"
+    data-modal-location-ru="Нуробадский район, на дороге Катта Амонкутон, горная местность."
+    data-modal-activities-ru="Паломничество, подъем в гору (сотни ступеней), наслаждение живописной природой."
+    data-modal-description-ru="Важная святыня, расположенная в красивой горной местности, внутри которой, по преданию, находится след Давуда (а.с.). Подъем к святыне требует преодоления около 1300 ступеней."
+
+    data-modal-title-en="Hazrati Davud Cave (Pilgrimage Site)"
+    data-modal-location-en="Nurobod district, on the Katta Amonkutan road, mountainous area."
+    data-modal-activities-en="Pilgrimage, mountain ascent (hundreds of steps), enjoying the beautiful nature."
+    data-modal-description-en="An important pilgrimage site located in a beautiful mountainous area, where the footprint of David (a.s.) is said to be found. The ascent requires climbing approximately 1300 steps."
+
+    data-lat="39.4674" 
+    data-lng="66.5050" 
+    data-tags="madaniy tog" 
+    onclick="openModal(this)"
+    >
+    <div class="card-image-wrapper">
+        <img src="https://fotos.uz/wp-content/uploads/2024/05/809a5219-ln.webp" alt="Hazrati Dovud g'origa chiqish zinalari" class="place-img">
+    </div>
+    <h3 class="place-title" data-uz-title="Hazrati Dovud G'ori" data-ru-title="Пещера Хазрати Давуд" data-en-title="Hazrati Davud Cave">Hazrati Dovud G'ori</h3>
+    <p class="card-description-placeholder"></p>
+</article>
+
+<article 
+class="place-card animate-on-scroll"
+data-modal-title-uz="Oq-Say Bog'i (Aksay)"
+data-modal-location-uz="Bulung‘ur tumani yaqinidagi yashil zona, Zarafshon suvi tarmog'i bo'ylab."
+data-modal-activities-uz="Tabiat qo'ynida dam olish, soy bo'yidagi hordiq maskanlari, oilaviy pikniklar."
+data-modal-description-uz="O'zining daryosi, yam-yashil o'simliklari va toza havosi bilan mashhur bo'lgan mahalliy dam olish maskani. Issiq yoz kunlarida oilaviy hordiq uchun ajoyib joy."
+data-modal-title-ru="Парк Ак-Сай"
+data-modal-location-ru="Зеленая зона возле Булунгурского района, вдоль сети рек Зарафшан."
+data-modal-activities-ru="Отдых на природе, зоны отдыха у ручья, семейные пикники."
+data-modal-description-ru="Местное место отдыха, известное своей рекой, пышной зеленью и чистым воздухом. Отличное место для семейного отдыха в жаркие летние дни."
+
+data-modal-title-en="Oq-Say Park (Aksay)"
+data-modal-location-en="Green zone near Bulungur district, along the Zarafshan water network."
+data-modal-activities-en="Relaxing in nature, rest areas by the stream, family picnics."
+data-modal-description-en="A local leisure spot famous for its river, lush vegetation, and clean air. It is a great place for family recreation during hot summer days."
+
+data-lat="40.0163" 
+data-lng="67.3315" 
+data-tags="daryo tabiat" 
+onclick="openModal(this)"
+>
+<div class="card-image-wrapper">
+    <img src="https://avatars.mds.yandex.net/get-altay/13061180/2a0000018f3d0f8f57b35ae415a804aac112/L_height" alt="Oq-Say Bog'ida soy bo'yidagi hordiq maskani" class="place-img">
+</div>
+<h3 class="place-title" data-uz-title="Oq-Say Bog'i (Aksay)" data-ru-title="Ак-Сай Парк" data-en-title="Oq-Say Park">Oq-Say Bog'i (Aksay)</h3>
+<p class="card-description-placeholder"></p>
+</article>
+
+<article 
+class="place-card animate-on-scroll"
+data-modal-title-uz="Tayloq Chorvachilik Maskanlari"
+data-modal-location-uz="Tayloq tumanining chekka qishloqlari, Samarqandning shimoli-g'arbiy qismi."
+data-modal-activities-uz="Agroturizm, mahalliy hayot tarzini o'rganish, ot minish, qishloq oziq-ovqatlarini tatib ko'rish."
+data-modal-description-uz="Haqiqiy agroturizm tajribasini taqdim etadi, tashrif buyuruvchilarga mahalliy dehqonchilik hayoti bilan tanishish va keng dashtlarda ot minish imkonini beradi. Tabiat bilan uyg'unlashish uchun ajoyib imkoniyat."
+
+data-modal-title-ru="Животноводческие Фермы Тайлака"
+data-modal-location-ru="Отдаленные села Тайлакского района, северо-западная часть Самарканда."
+data-modal-activities-ru="Агротуризм, изучение местного быта, конный спорт, дегустация сельской еды."
+data-modal-description-ru="Предоставляет подлинный опыт агротуризма, позволяя посетителям познакомиться с местной фермерской жизнью и прокатиться на лошадях по широким степям. Прекрасная возможность слияния с природой."
+
+data-modal-title-en="Tayloq Livestock Farms"
+data-modal-location-en="Remote villages of Tayloq district, northwestern part of Samarkand."
+data-modal-activities-en="Agrotourism, studying local life, horseback riding, tasting rural food."
+data-modal-description-en="Provides an authentic agrotourism experience, allowing visitors to get acquainted with local farming life and ride horses across the vast steppes. A wonderful opportunity to connect with nature."
+
+data-lat="40.0166" 
+data-lng="66.7583" 
+data-tags="qishloq agroturizm" 
+onclick="openModal(this)"
+>
+<div class="card-image-wrapper">
+    <img src="https://yuz.uz/imageproxy/1200x/https://yuz.uz/file/news/d616d94b5b1105b047508241319be607.png" alt="Tayloq qishloq hududida otda sayohat" class="place-img">
+</div>
+<h3 class="place-title" data-uz-title="Tayloq Chorvachilik Maskanlari" data-ru-title="Фермы Тайлака" data-en-title="Tayloq Farms">Tayloq Chorvachilik Maskanlari</h3>
+<p class="card-description-placeholder"></p>
+</article>
+
+<article 
+class="place-card animate-on-scroll"
+data-modal-title-uz="Qoraqishloq G'ori"
+data-modal-location-uz="Urgut tog' tizmasining sharqiy qismi."
+data-modal-activities-uz="Professional Speleologiya, Ekstremal turizm."
+data-modal-description-uz="Kam o'rganilgan, uzunligi bir necha kilometrga yetadigan g'or. Tajribali sayohatchilar va g'or o'rganuvchilari uchun mo'ljallangan. Ichkarida noyob stalaktit va stalagmitlar mavjud."
+
+data-modal-title-ru="Пещера Каракишлак"
+data-modal-location-ru="Восточная часть Ургутского горного хребта."
+data-modal-activities-ru="Профессиональная Спелеология, Экстремальный туризм."
+data-modal-description-ru="Малоизученная пещера, протяженность которой достигает нескольких километров. Предназначена для опытных путешественников и спелеологов. Внутри имеются уникальные сталактиты и сталагмиты."
+
+data-modal-title-en="Qoraqishloq Cave"
+data-modal-location-en="Eastern part of the Urgut mountain range."
+data-modal-activities-en="Professional Speleology, Extreme tourism."
+data-modal-description-en="A little-explored cave with a length of several kilometers. Intended for experienced travelers and speleologists. Unique stalactites and stalagmites are present inside."
+
+data-lat="39.4000" 
+data-lng="67.3500" 
+data-tags="tog" 
+onclick="openModal(this)"
+>
+<div class="card-image-wrapper">
+    <img src="https://static.zarnews.uz/crop/6/5/720__80_65c598c287f0f31dcaf79d1bf233e7e6.jpeg?img=self&v=1740243457" alt="Qoraqishloq g'origa kirish joyi" class="place-img">
+</div>
+<h3 class="place-title" data-uz-title="Qoraqishloq G'ori" data-ru-title="Пещера Каракишлак" data-en-title="Qoraqishloq Cave">Qoraqishloq G'ori</h3>
+<p class="card-description-placeholder"></p>
+</article>
+
+<article 
+class="place-card animate-on-scroll"
+data-modal-title-uz="G'o'bdin Qishlog'i (G'ubdin)"
+data-modal-location-uz="Samarqandning sharqiy chekkasi."
+data-modal-activities-uz="Qishloq hayoti, Etnografik turizm, Hunarmandchilik ustaxonalarini ziyorat qilish."
+data-modal-description-uz="Hunarmandchilik an'analari saqlanib qolgan, an'anaviy kulolchilik va to'qimachilik bilan shug'ullaniladigan qadimiy qishloq. Bu yerda mahalliy hunarmandlar bilan bevosita muloqot qilish imkoniyati mavjud."
+
+data-modal-title-ru="Село Гобдин (Губдин)"
+data-modal-location-ru="Восточная окраина Самарканда."
+data-modal-activities-ru="Сельская жизнь, Этнографический туризм, Посещение ремесленных мастерских."
+data-modal-description-ru="Древнее село, где сохранились ремесленные традиции, занимающееся традиционной керамикой и ткачеством. Здесь есть возможность напрямую пообщаться с местными ремесленниками."
+
+data-modal-title-en="G'o'bdin Village (G'ubdin)"
+data-modal-location-en="Eastern outskirts of Samarkand."
+data-modal-activities-en="Village life, Ethnographic tourism, Visiting craft workshops."
+data-modal-description-en="An ancient village where craft traditions are preserved, engaged in traditional pottery and weaving. There is an opportunity to directly interact with local craftsmen here."
+
+data-lat="39.7333" 
+data-lng="67.1000" 
+data-tags="qishloq madaniy" 
+onclick="openModal(this)"
+>
+<div class="card-image-wrapper">
+    <img src="https://uzbekistan.travel/storage/app/media/uploaded-files/1115215264e_8bae_4edf_a9f5_0adc727a5c85PR_recovery_quality_6x.jpeg" alt="G'o'bdin qishlog'ida kulolchilik ustaxonasi" class="place-img">
+</div>
+<h3 class="place-title" data-uz-title="G'o'bdin Qishlog'i" data-ru-title="Село Гобдин" data-en-title="G'o'bdin Village">G'o'bdin Qishlog'i</h3>
+<p class="card-description-placeholder"></p>
+</article>
+
+<article 
+class="place-card animate-on-scroll"
+data-modal-title-uz="Qizilcho'qqi Cho'qqisi"
+data-modal-location-uz="Zarafshon tizmasi, Nurota tog'lariga yaqin hudud."
+data-modal-activities-uz="Tog'ga chiqish (alpinizm), murakkab hiking marshrutlari, panoromali manzaralar."
+data-modal-description-uz="Samarqand viloyatining eng baland cho'qqilaridan biri. Faqat tayyorlangan alpinistlar va jiddiy hiking ishqibozlari uchun. Cho'qqidan Zarafshon vodiysining ajoyib manzaralari ochiladi."
+
+data-modal-title-ru="Пик Кызылчокки"
+data-modal-location-ru="Зарафшанский хребет, район, близкий к горам Нурота."
+data-modal-activities-ru="Восхождение (альпинизм), сложные пешие маршруты, панорамные виды."
+data-modal-description-ru="Одна из самых высоких вершин Самаркандской области. Только для подготовленных альпинистов и серьезных любителей пеших походов. С вершины открываются великолепные виды на Зарафшанскую долину."
+
+data-modal-title-en="Qizilcho'qqi Peak"
+data-modal-location-en="Zarafshan range, area close to the Nurata mountains."
+data-modal-activities-en="Mountain climbing (alpinism), complex hiking routes, panoramic views."
+data-modal-description-en="One of the highest peaks in Samarkand region. Only for prepared alpinists and serious hiking enthusiasts. Magnificent views of the Zarafshan valley open up from the peak."
+
+data-lat="39.6000" 
+data-lng="66.7000" 
+data-tags="tog" 
+onclick="openModal(this)"
+>
+<div class="card-image-wrapper">
+    <img src="https://daryo.uz/image/1920x1080?url=https%3A%2F%2Fdata.daryo.uz%2Fmedia%2F2019%2F07%2Fphoto_2019-07-26_04-06-57.jpg" alt="Qizilcho'qqi cho'qqisi manzarasi" class="place-img">
+</div>
+<h3 class="place-title" data-uz-title="Qizilcho'qqi Cho'qqisi" data-ru-title="Пик Кызылчокки" data-en-title="Qizilcho'qqi Peak">Qizilcho'qqi Cho'qqisi</h3>
+<p class="card-description-placeholder"></p>
+</article>
+
+</div>
+</div>
+</section>
+
+</main>
+
+<footer class="main-footer">
+    <div class="container footer-grid-container">
+        <div class="footer-brand">
+            <p class="footer-logo-text">EKO SAMARQAND</p>
+            <p class="tagline">Yashil Sayohatlar, Betakror Manzaralar</p>
+        </div>
+        
+        <div class="footer-links">
+            <h4>Tezkor Havolalar</h4>
+            <ul>
+                <li><a href="#about" data-uz="Biz Haqimizda" data-ru="О Нас" data-en="About Us">Biz Haqimizda</a></li>
+                <li><a href="#services" data-uz="Xizmatlar" data-ru="Услуги" data-en="Services">Xizmatlar</a></li> 
+                <li><a href="#places" data-uz="Joylar" data-ru="Места" data-en="Places">Joylar</a></li>
+                <li><a href="tel:+998901234567" data-uz="Telefon: +998 (90) 123-45-67" data-ru="Телефон: +998 (90) 123-45-67" data-en="Phone: +998 (90) 123-45-67">Telefon: +998 (90) 123-45-67</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-social">
+            <h4>Bizni Kuzating</h4>
+            <div class="social-icons-footer">
+                <a href="https://instagram.com/ecosamarkand" target="_blank" aria-label="Instagram" class="social-icon-sm instagram-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com/ecosamarkand" target="_blank" aria-label="Facebook" class="social-icon-sm facebook-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://t.me/ecosamarkand" target="_blank" aria-label="Telegram" class="social-icon-sm telegram-link"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 EKO Samarqand. Barcha huquqlar himoyalangan.</p>
+    </div>
+</footer>
+
+<div id="place-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">×</span>
+        <h2 id="modal-title"></h2>
+        
+        <div class="map-iframe-wrapper modal-map-wrapper">
+            <iframe 
+            src="http://googleusercontent.com/maps.google.com/7" 
+            id="modal-map-iframe"
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            class="responsive-map-iframe"
+            title="Joylashuv xaritasi"
+            ></iframe>
+        </div>
+        
+        <div class="modal-info">
+            <p><strong data-key="location-title"><i class="fas fa-map-marker-alt"></i> Joylashuvi:</strong> <span id="modal-location"></span></p>
+            <p><strong data-key="activities-title"><i class="fas fa-hiking"></i> Faoliyatlar:</strong> <span id="modal-activities"></span></p>
+        </div>
+        
+        <p id="modal-description"></p>
+        
+        <button class="btn primary-btn" onclick="bookTripAndNotify()" data-uz="Sayohatga Buyurtma Berish" data-ru="Забронировать Тур" data-en="Book a Trip">Sayohatga Buyurtma Berish</button>
+    </div>
+</div>
+
+<div id="notification-container"></div>
+
+<script src="Eko.js"></script>
+</body>
+</html>
